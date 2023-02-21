@@ -18,12 +18,12 @@
       
 ![pic_2](https://user-images.githubusercontent.com/65547096/180929873-a170fb0f-4ec1-4ac7-ac04-ce8e5ea91c55.PNG)
       
-<p>It is often useful to be able to sequence through an arbitrary number of states, staying in each state an arbitrary amount of time. For example, consider the set of traffic lights shown in Figure 2. The lights are assumed to be at a four-way intersection with one street going north south and the other road going east-west. The Lab VIEW programming is done in the diagram using graphical source code. In the block diagram the program runs from left to right. If the green light in the traffic model does not illuminate, the system goes into default since there is no input into the system. The signal from the sensor is acquired through the DAQ, which is connected, to the computer.</p>
+<p>It is often useful to be able to sequence through an arbitrary number of states, staying in each state an arbitrary amount of time. For example, consider the set of traffic lights shown in Figure 2. The lights are assumed to be at a four-way intersection with one street going north south and the other road going east-west. </p>
 
 # Design Process of Traffic Light Controller:
 
 <p>A single 3-lamp traffic light is considered as a finite state machine. It has three states, Red, Yellow, and Green, which are also the outputs. A single input for the traffic light is defined, with values 0 for no change and 1 for change. This input is connected to the output of a countdown timer, which outputs a 1 when it reaches zero. Thus for a single light, we can draw the state transition diagram as shown in Figure 3.</p>
-<p>To simulate these traffic lights we will use the red, yellow, and green LEDs connected to Id[7:2] on the BASYS board and cycle through the six states shown in Table 1.</p>
+
       
 ![pic_3](https://user-images.githubusercontent.com/65547096/180930032-1ed31eac-3730-4624-b8a4-4c5c82f52173.PNG)
       
