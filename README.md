@@ -30,3 +30,6 @@
 <p>A state diagram for controlling these traffic lights is shown in Figure 3. If we use a 3 Hz clock to drive this state diagram then a delay of 1 second is achieved by staying in a state for three clock cycles. Similarly, a delay of 5 second is achieved by staying in a state for fifteen clock cycles. The count variable in Figure 3 will be reset to zero when moving to the next state after a timeout.</p>
       
 ![pic_4](https://user-images.githubusercontent.com/65547096/180930060-521f12c5-3e44-42dc-91a6-11485381d4e1.PNG)
+
+
+EDA Playground Link : https://www.edaplayground.com/x/ek3b
